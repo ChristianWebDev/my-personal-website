@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
-  </head>
-  <body>
-    <h1>HELLO WORLD</h1>
-    <script src="script.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    <title>PersonalWebsite</title>
+</head>
+<body>
+    <header><!-- Navication bar - It's just static buttons for looks purposes for now-->
+        <h2 id="logo">Personal<span>Website</span></h2>
+        <nav>
+            <ul> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolios</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="image"> <!-- Big 'Welcome' header -->
+        <h1>Welcome!</h1>
+    </div>
+
+<div class="about"> <!-- Content about me -->
+    <div class="main">
+       <img src="./images/main.jpg">
+    </div>
+    <h1>About Me</h1> <br>
+    <p>My name is Christian and I am a aspiring Web Developer.</p>
+    <p>I've always been in the IT industry and working as a Mainframe programmer and Network Engineer<br>
+     But a part of me always leant onto Front-End Web design in terms of the creativity and possiblity of creating websites
+    <br>
+    </p>
+    <br>    
+    
+
+
+
+<div class="row"> <!-- "Basketball" about me section -->
+    <div class="column">
+      <div class="photo">
+        <img src="./images/curry.jpg" alt="Basketball" style="width:100%">
+        <div class="container">
+          <h2>Basketball</h2>
+          <p>I enjoy playing and watching basketball <br>
+            Golden State Warriors are my favourite team!
+          </p>
+          <br>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column"> <!-- "Piano" about me section -->
+      <div class="photo">
+        <img src="./images/piano.jpg" alt="Piano" style="width:100%">
+        <div class="container">
+          <h2>Piano</h2>
+          <p>I am a grade 7 pianist and a casual teacher <br>
+            Piano is my favourite instrument to listen to!
+          </p>
+          <br>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column"> <!-- "Gaming" about me section -->
+      <div class="photo">
+        <img src="./images/gaming.jpg" alt="Gaming" style="width:100%">
+        <div class="container">
+          <h2>Gaming</h2>
+          <p>In my leisure time I like to play games. Primaily <br>
+            Sports games like NBA 2k or action games like Overwatch!
+          </p>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+      
+
+</body>
 </html>
