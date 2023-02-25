@@ -9,16 +9,26 @@ header  {
     width: 100%;
     height: 70px;
     background-color: #282828;
-    position: sticky;
+    position: sticky; /* Keeps nav bar viewable */ 
     top: 0;
     z-index: 100;
 }
 
-.image h1 {
-    font-size: 150px;
+.image h1.title {
+    font-size: 4.5rem;
     color: white;
     margin-bottom: 50px;
+    text-align: center;
 }
+
+.title_desc {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
 
 
 
@@ -33,8 +43,9 @@ header  {
 }
 
 span {
-    color: #ffffff;
+    color: #AA4465;
 }
+
 
 ul {
     width: auto;
@@ -67,7 +78,7 @@ a:hover {
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('./images/water.jpg')
+    background-image: url('./images/city.jpg')
     
     
 }
@@ -86,8 +97,8 @@ a:hover {
 .about {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
-    color: white;
+    background-color: white;
+    
   }
 
 #Hobbies {
