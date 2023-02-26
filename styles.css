@@ -12,6 +12,7 @@ header  {
     position: sticky; /* Keeps nav bar viewable */ 
     top: 0;
     z-index: 100;
+    /*background: rgba(0,0,0,0.5); */
 }
 
 .image h1.title {
@@ -40,6 +41,7 @@ header  {
     margin-top: 10px;
     color: #AA4465;
     font-size: 30px;
+    
 }
 
 span {
@@ -79,8 +81,7 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('./images/city.jpg')
-    
-    
+
 }
 
 .main img {
@@ -101,25 +102,9 @@ a:hover {
     
   }
 
-#Hobbies {
-    text-align: center;
-    margin-top: 10px;
-    color: #AA4465;
-    font-size: 30px;
-}
-
-
-
 .container {
     padding: 0 16px;
   }
-  
-.container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
   
 .column {
     float: left;
